@@ -1,0 +1,16 @@
+{
+  "name": "starwars-name",
+  "version": "1.0.0",
+  "description": "Create your star wars name using a combination of your first name, last name, your moms name, and the street you grew up on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/bytheway875/starwars-name.git"
+  },
+  "author": "Shannon Byrne (@bytheway875)",
+  "license": "ISC"
+}

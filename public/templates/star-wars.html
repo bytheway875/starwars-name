@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Find Your Star Wars Name</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js">
+    </script>
+    <script src="star-wars.js"></script>
+    <link rel="stylesheet" href="star-wars.css">
+  </head>
+  <body>
+    <audio id="lightsaber1" src="lightsaber1.wav"></audio>
+    <audio id="lightsaber2" src="lightsaber2.wav"></audio>
+    <audio id="lightsaber3" src="lightsaber3.wav"></audio>
+    <audio id="lightsaber4" src="lightsaber4.wav"></audio>
+    <audio id="theme" src="star-wars-theme-song.mp3"></audio>
+    <div class="container-container">
+      <div class="container">
+
+        <h1 class="header">
+          Find Your Star Wars Name:
+        </h1>
+
+        <div class="star-wars-name">
+          _____ _____
+        </div>
+        <form>
+
+          <label for="first-name">Your First Name</label>
+          <input id="first-name" onkeyup="calculateFromFirstName()">
+
+          <label for="last-name">Your Last Name</label>
+          <input id="last-name" onkeyup="calculateFromLastName()">
+
+          <label for="moms-name">Your Mother's First Name</label>
+          <input id="moms-name" onkeyup="calculateFromMom()" >
+
+          <label for="birth-place">Your City of Birth</label>
+          <input id="birth-place" onkeyup="calculateFromBirth()">
+        </form>
+
+      </div>
+    </div>
+    <div class="sound-control">
+      <img class="sound-off" src="sound-off.svg" hidden>
+      <img class="sound-on" src="sound-on.svg">
+    </div>
+  </body>
+
+</html>
